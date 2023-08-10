@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/registration"
+        app:showAsAction="ifRoom"
+    android:enabled="true"
+    android:title="등록"
+    android:icon="@drawable/regist"
+    />
+    <item android:id="@+id/check"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/check"
+        android:enabled="true"
+        android:title="확인"
+        />
+</menu>
